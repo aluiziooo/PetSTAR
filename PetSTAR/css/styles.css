@@ -1,3 +1,179 @@
-body{
-    background-color: #CCC;
+.navbar-brand{
+    position:relative;
+    left: 20px;
+    bottom: 5px;
+}
+
+#logo{
+    width: 50px;
+}
+#petstar-title{
+    color: #FFF;
+    position: absolute;
+    bottom: -2px;
+    font-size: 30px;
+    left: 55px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px black;
+}
+#main-navbar{
+    background-color: #F0650E;
+}
+
+#search-form{
+    margin: 0 auto;
+    background-color: #FFF;
+    border-radius: 5px;
+    width: 50%;
+    margin-left: 180px;
+    position: relative;
+}
+#search-form .form-control{
+    border: none;
+    width: 100%;
+    box-shadow: none;
+
+}
+
+.btn-pesquisar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-left: 1px solid black;
+    border-radius: 0px;
+}
+
+#navbar {
+    min-width: 30%;
+}
+
+.navbar-nav{
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.navbar-nav .nav-item .nav-link{
+    color: #FFF;
+    transition: .5s;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #999;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.msg-container{
+    padding: 15px;
+}
+
+.msg{
+    width: 60%;
+    margin: 0 auto;
+    padding: 10px;
+    border: solid 1px #FFF;
+    text-align: center;
+}
+.msg.error{
+    color: #842029;
+    background-color: #F8D7DA;
+    border-color: #F5C2C5;
+}
+
+.msg.success{
+    color: #0F5132;
+    background-color: #D1E7DD;
+    border-color: #BADBCC;
+}
+
+/* Home */
+#main-container{
+    background-color: #FFF;
+    color: #000;
+    min-height: 65vh;
+    padding: 40px;
+}
+
+/* Login / Register */
+.form-group{
+    margin: 10px auto;
+}
+#auth-row{
+    justify-content: space-evenly;
+}
+
+#login-container h2,
+#register-container h2 {
+    text-align: center;
+    border-bottom: 2px solid #F0650E;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+}
+#login-container form,
+#register-container form {
+    width: 400px;
+    margin: 30px auto;
+}
+
+.card-btn{
+    color: #FFF;
+    background-color: #F0650E;
+    border: 2px solid #F0650E;
+    width: 100%;
+    font-weight: bold;
+}
+
+.card-btn:hover{
+    background-color: transparent;
+    color: #F0650E;
+    border-color: #F0650E;
+}
+
+/* FOOTER */
+#footer {
+    background-color: #F0650E;
+    color: #FFF;
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+#social-container ul,
+#footer-links-container ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+#social-container li,
+#footer-links-container li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+#social-container li{
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    transition: .5s;
+    line-height: 3;
+}
+
+#social-container li:hover{
+    background-color: #333;
+}
+
+#social-container a,
+#footer-links-container a{
+    color: #FFF;
+    transition: .5s;
+}
+
+#social-container li i{
+    font-size: 25px;
+}
+
+#footer-links-container{
+    margin: 30px 0;
 }
